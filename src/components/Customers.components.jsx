@@ -38,19 +38,19 @@ const chartConfig = {
 
 const CustomersComponents = () => {
     return (
-        <Card className="w-[400px]">
+        <Card className="w-full h-full">
             <CardHeader>
-                <p>Customers</p>
+                <p className='text-sm text-gray-500'>Customers</p>
                 <CardTitle>36,358</CardTitle>
                 <span>
-                    <span className='inline-flex justify-center items-center rounded-full  w-5 h-5 bg-[#fbf2ef]'>
+                    <span className='inline-flex justify-center items-center rounded-full  w-5 h-5 bg-[#fbf2ef] dark:bg-gray-700'>
                         <LuArrowDownRight className='text-[#fa896b] text-sm' />
                     </span>
-                    <span className='text-sm mx-1'>+9%</span>
+                    <span className='text-sm mx-1 text-gray-500'>+9%</span>
                     
                 </span>
             </CardHeader>
-            <CardContent className="p-0 -mb-20">
+            <CardContent className="p-0 ">
                 <ChartContainer config={chartConfig}>
                     <AreaChart
                         accessibilityLayer

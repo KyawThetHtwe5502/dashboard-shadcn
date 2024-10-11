@@ -39,7 +39,7 @@ const chartConfig = {
 
 const MonthlyComponents = () => {
     return (
-        <Card className="w-[400px] p-0 shadow-md">
+        <Card className="w-full h-full p-0 shadow-md">
             <CardHeader>
                 <div className='flex justify-between'>
                 <div>
@@ -48,7 +48,7 @@ const MonthlyComponents = () => {
                 $6,820
                 </p>
                 <span>
-                    <span className='inline-flex justify-center items-center rounded-full  w-5 h-5 bg-[#fbf2ef]'>
+                    <span className='inline-flex justify-center items-center rounded-full  w-5 h-5 bg-[#fbf2ef] dark:bg-gray-800'>
                         <LuArrowDownRight className='text-[#fa896b] text-sm' />
                     </span>
                     <span className='text-sm mx-1'>+9%</span>

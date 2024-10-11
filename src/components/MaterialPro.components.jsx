@@ -12,7 +12,7 @@ const MaterialProComponents = () => {
     return () => clearTimeout(timer)
   }, [])
 
-  return <Progress value={progress} className=" h-1  fill-[#4262BB]" />
+  return <Progress value={progress} className=" h-1  fill-[#4262BB] dark:bg-gray-700" />
 }
 
 export default MaterialProComponents;

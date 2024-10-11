@@ -12,14 +12,14 @@ import FlexyAdminComponents from './FlexyAdmin.components'
 
 const SellingProductsComponents = () => {
     return (
-        <Card className="w-[300px] bg-blue-400">
+        <Card className="w-full h-full bg-blue-400">
             <CardHeader>
                 <CardTitle className="text-xl text-white">Best Selling Products</CardTitle>
                 <CardDescription className="text-white">Overview 2024</CardDescription>
             </CardHeader>
-            <img src="piggy.png" className='-mb-4 z-10 relative' alt="" />
+            <img src="/piggy.png" className='-mb-4 z-10 relative' alt="" />
             <CardContent className="p-2 z-20 relative">
-                <Card className="bg-white p-8">
+                <Card className="bg-white dark:bg-gray-800 p-8">
                     <div className='mb-5'>
                         <div className='flex justify-between items-center mb-5'>
                             <div>

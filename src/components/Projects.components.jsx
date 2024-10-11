@@ -38,15 +38,15 @@ const chartConfig = {
 
 const  ProjectsComponents  = () => {
   return (
-    <Card className="w-[400px]">
+    <Card className="w-full h-full">
       <CardHeader>
         <p className='text-sm  text-gray-500'>Projects</p>
         <CardTitle>78,298</CardTitle>
         <span>
-          <span className='inline-flex justify-center items-center rounded-full  w-5 h-5 bg-[#fbf2ef]' >
+          <span className='inline-flex justify-center items-center rounded-full  w-5 h-5 dark:bg-teal-900 bg-[#fbf2ef]' >
             <RiArrowLeftUpLine className='text-[#fa896b] text-sm' />
           </span>
-          <span className='text-sm ms-1'>+9%</span>
+          <span className='text-sm ms-1 text-gray-500'>+9%</span>
         </span>
       </CardHeader>
       <CardContent>

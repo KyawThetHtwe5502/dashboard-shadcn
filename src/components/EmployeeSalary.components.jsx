@@ -52,7 +52,7 @@ const chartConfig = {
 
 const  EmployeeSalaryComponents = () => {
   return (
-    <Card className="w-[400px]">
+    <Card className="w-full h-full">
       <CardHeader>
         <CardTitle className="text-lg -mb-2">Employee Salary</CardTitle>
         <CardDescription>Every month</CardDescription>
@@ -75,6 +75,7 @@ const  EmployeeSalaryComponents = () => {
               dataKey="salary"
               strokeWidth={2}
               fill='#EBEFF8'
+              opacity={0.6}
               radius={4}
               activeIndex={2}
               barSize={23}
@@ -89,7 +90,6 @@ const  EmployeeSalaryComponents = () => {
                   />
                 )
               }}
-              
             />
           </BarChart>
         </ChartContainer>

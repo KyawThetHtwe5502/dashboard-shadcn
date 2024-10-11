@@ -37,7 +37,7 @@ const chartConfig = {
 
 const WeeklyComponents = () => {
     return (
-        <Card className="w-[400px]">
+        <Card>
             <CardHeader>
                 <CardTitle className="text-lg">Weekly Stats</CardTitle>
                 <CardDescription>
